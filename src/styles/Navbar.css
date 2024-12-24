@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    }
+.navbar-logo {
+    height: auto;
+    }
+    .navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    justify-content: end, space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .navbar-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    }
+    .navbar-link:hover {
+    color: #410606;
+    }

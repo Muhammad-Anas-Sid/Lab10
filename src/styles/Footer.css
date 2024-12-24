@@ -1,0 +1,31 @@
+.footer {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(255, 253, 208);
+    padding: 30px;
+    background-image: url(https://www.shutterstock.com/image-photo/light-pale-soft-pastel-gold-600nw-2400024087.jpg);
+    text-align: left;
+    flex-wrap: wrap;
+}
+.footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+.footerlink
+{
+    color: rgb(59, 57, 8);
+    transition: color 0.7s ease;
+    text-decoration: none;
+}
+.footerlink:hover
+{
+    color: #410606;
+}
+p {
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: wavy;
+    color: rgb(59, 57, 8);
+}

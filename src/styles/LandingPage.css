@@ -1,0 +1,81 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    text-align: center;
+    background-image: url(https://www.junaidjamshed.com/media/catalog/product/1/9/1949_eb_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=);
+    background-repeat: repeat-x;
+    animation: moveBackground 10s linear infinite ;
+}
+@keyframes moveBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -1000px 0; 
+    }
+  }
+.search {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #410606;
+  font-family: sans-serif;
+}
+.searchbar {
+  width: 300px;
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 25px; 
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.searchbar::placeholder {
+  color: #aaa;
+  font-style: italic;
+  font-family: sans-serif;
+}
+.searchbar:focus {
+  border-color: rgb(59, 57, 8);
+  box-shadow: 0 0 8px rgba(244, 162, 97, 0.5);
+}
+.searchbar-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+    .landing-title {
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: #410606;
+    
+    }
+    .landing-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: rgb(59, 57, 8);
+    max-width: 600px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: sans-serif;
+    }
+    
+    .landing-button {
+        margin: 10px;
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    .landing-button:hover {
+    background-color: #410606;
+    }
