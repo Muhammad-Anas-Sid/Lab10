@@ -1,90 +1,76 @@
-body{
-  font-family: sans-serif;
-  background-color: rgb(134, 19, 19);
-}
-.navbar{
-  background-color: rgb(134, 19, 19);
-  display: flex;
-  padding: 5px;
-  justify-content: space-between;
-  box-shadow: 0 0 10px black;
-}
-.logo{
-  height: 50px;
-  border-radius: 50px;
-}
-.head{
-  text-align: left;
-  color: white;
-}
-ul {
-  list-style: none;
-  display: inline-block;
-  justify-content: space-between;
-}
-li{
-  display: inline;
-  margin:  10px;
-  cursor: pointer;
-  font-weight: 700;
-  text-align: left;
-}
-.order-button{
-  background-color: rgb(255, 187, 0);
-  padding: 10px;
-  border-radius: 30px;
-  cursor: pointer;
-}
-.landing-page{
-  text-align: left;
- margin: 40px;
-}
-.heading{
-  align-items: center;
-  justify-content: center;
-}
-.lp-head{
-  font-weight: 100px;
-  text-align: left;
-  color: white;
-}
-.lp-para{
-  color: white;
-  font: 20px white bold;
-  text-align: left;
-}
-.burgers-img{
-  width: 350px;
-  height: auto;
-  overflow: hidden;
-  border-radius: 70px;
-}
-.order-now{
-  background-color: rgb(255, 187, 0);
-  padding: 10px;
-  border-radius: 20px;
-}
-.our-spec-menu{
-  color: rgb(78, 3, 3);
-  text-align: center;
-  font-size: 50px;
-}
-.item-card{
-  background-color: white;
-  display: flex;
-  color: rgb(78, 3, 3);
-  padding: 50px;
-  border: 10px;
-}
-.cart{
-  padding: 5px;
-  background-color: rgb(134, 19, 19);
-  border-radius: 30px;
-}
-.footer{
-  background-color: rgb(134, 19, 19);
-  color: white;
-  text-align: center;
-  padding: 20px;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0b4ba0;
+  color: #ffffff;
 }
 
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+Link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+Link:hover {
+  text-decoration: underline;
+}
+nav {
+  background-color: #333;
+  padding: 1em 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: rgb(19, 18, 18);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.cart-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-total {
+  font-weight: bold;
+  margin-top: 10px;
+}
